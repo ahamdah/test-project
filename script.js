@@ -14,4 +14,11 @@ function removeText(){
     i--;
     }
 }
+function changeTitle(){
+    let x=document.getElementById("text-input").value;
+    document.getElementById("text-input").value="";
+    document.title=x;
+}
+
+
 
